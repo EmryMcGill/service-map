@@ -6,6 +6,7 @@ import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import { useEffect, useRef, useState } from "react";
 import "leaflet.markercluster";
+import "./leaflet-icon";
 
 type Service = {
   id: number;
